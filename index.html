@@ -6,9 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
+      </style>
 </head>
 <body>
-    <div class="container" id="container"></div>
+    <h1>Etch-A-Sketch</h1>
+    <label for="rainbow">Rainbow Mode:</label>
+    <input type="checkbox" name="rainbow" id="rainbow">
+    <button id="grid" onclick="changeGrids()">Change no of Grids</button>
+    <main>
+        <div class="container" id="container">
+        </div>
+    </main>
+
     <script src="script.js"></script>
 </body>
 </html>
