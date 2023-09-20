@@ -21,7 +21,7 @@ for(let i = 0; i< (num * num); i++){
    div.style.width = `${lb}px`;
   
    containerEl.appendChild(div);
-   div.addEventListener('mousedown', ()=>{
+   div.addEventListener('hover', ()=>{
       div.style.backgroundColor = "black";
     });
   }
@@ -40,7 +40,7 @@ const div = document.createElement('div');
  div.style.width = `${lb}px`;
 
  containerEl.appendChild(div);
- div.addEventListener('mousedown', ()=>{
+ div.addEventListener('hover', ()=>{
   if(rainbowEl.checked){
     div.style.backgroundColor = getRandomColor();
   }
